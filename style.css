@@ -1,0 +1,93 @@
+* {
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+    color: white;
+}
+
+html { 
+    font-size: 62.5%;
+    font-family:"Space Mono";
+}
+
+.header1 {
+    background: rgb(23,34,42);
+    height: 10vh;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.u1 {
+    position:relative;
+    left: 44rem;
+    top: 1rem;
+}
+
+.u2 {
+    padding-left: 92rem;
+    position: relative;
+    bottom: 34px;
+}
+
+.header2{
+    background: rgb(28,39,51);
+    height: 10vh;
+    font-size: 3rem;
+}
+
+
+ul li {
+    display: inline-block;
+}
+
+.container {
+    background: rgb(33,47,60);
+    height:19.6vh;
+    font-size: 2.2rem;
+   
+}
+
+.description {
+
+    width: 80rem;
+    text-align:center;
+    padding:20px;
+    position:relative;
+    left:25%;
+    top:-55%; 
+}
+
+.footer1 {
+    background: rgb(28,39,51);
+    height:10vh;
+    
+}
+
+.footer2 {
+    background: rgb(23,34,42);
+    height:7.8vh;
+    font-size:2rem;
+    padding: 15px;
+    text-align: center;
+}
+
+.sn {
+    width:60px;
+    position:relative;
+    left: 45vw;
+    top: 10px;
+}
+
+.pic {
+    width:300px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 13px black;
+    position: relative;
+    left:620px;
+    bottom: 65px;
+
+}
+
+.div_picture {
+    background-color: rgb(33,47,60);
+}
