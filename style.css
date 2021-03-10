@@ -18,14 +18,14 @@ html {
 }
 
 .u1 {
-    position:relative;
+    position:absolute;
     left: 44rem;
     top: 1rem;
 }
 
 .u2 {
     padding-left: 92rem;
-    position: relative;
+    position: absolute;
     bottom: 34px;
 }
 
