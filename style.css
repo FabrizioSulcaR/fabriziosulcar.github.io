@@ -1,0 +1,273 @@
+* {
+    box-sizing:border-box;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html { 
+    font-size: 62.5%;
+    font-family:"Space Mono";
+    color: white;
+}
+
+.header1 {
+    background-color: rgb(23,34,42);
+    width:100vw;
+    height: 10vh;
+    font-size: 3.2rem;
+    text-align: center;
+    padding: 2.1px;
+    
+}
+
+.header2 {
+    background-color: rgb(28,39,51); 
+    width:100vw;
+    height: 8vh;
+    font-size:1.9rem;
+    display:inline-flex;
+    justify-content: space-around;
+    
+}
+
+.u1 {
+    list-style-type: none;
+    
+}
+
+.u1 li {
+    display:inline-flex;
+    justify-content: space-between;
+}
+
+.u1 li a {
+    text-decoration: none;
+    color:white;       
+}
+
+.u2 {
+    list-style-type: none;
+    
+}
+
+.u2 li {
+    display:inline-flex;
+    
+}
+
+.u2 li a {
+    text-decoration: none;
+    color:white;       
+}
+
+
+
+.description {
+    background-color: rgb(33,47,60);
+    width:100vw;
+    height:64vh;
+    font-size:1.4rem;
+    text-align: center;
+    padding-top:31vh;
+}
+
+.footer1 {
+    background: rgb(28,39,51);
+    width:100vw;
+    height: 8vh;
+    display:inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    display:inline-flex;    
+}
+
+li a img {
+    width:40px;
+    border-radius:2px;
+    
+}
+
+.footer2 {
+    background-color: rgb(23,34,42);
+    width:100vw;
+    height: 10vh;
+    font-size: 1.8rem;
+    text-align: center;
+    padding: 15px;
+}
+
+.pic {
+    width:190px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 13px black;
+    position:absolute;
+    margin-top:-15px;
+}
+
+.container-image {
+    display:flex;
+    justify-content:center;
+}
+
+@media (min-width: 375px) {
+
+    .description {
+        font-size:1.45rem;
+        padding-left:2px;
+        padding-right:2px;
+        padding-top:30vh;
+    }
+    
+}
+
+@media (min-width: 425px) {
+
+    .description {
+        font-size:1.57rem;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:30vh;
+    }
+    .u1{
+        padding-left:30px;
+    }
+    
+}
+
+@media (min-width: 768px) {
+
+    .description {
+        font-size:2rem;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:35vh;
+    }
+    .pic {
+        width:250px;
+        border-radius: 50%;
+        box-shadow: 1px 1px 13px black;
+        position:absolute;
+        margin-top:-50px;   
+    }
+    .u1 {
+        font-size:2.6rem;
+        padding-left:80px;
+    }
+    .u2 {
+        font-size:2.6rem;
+        padding-left:180px;
+    }
+
+}
+
+@media (min-width: 1024px) {
+
+    .description {
+        font-size:2.2rem;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:35vh;
+    }
+    .pic {
+        width:250px;
+        border-radius: 50%;
+        box-shadow: 1px 1px 13px black;
+        position:absolute;
+        margin-top:-50px;   
+    }
+    .header1 {
+        font-size:4rem;
+        padding:2px;
+    }
+    .u1 {
+        font-size:2.6rem;
+        padding-left:100px;
+    }
+    .u2 {
+        font-size:2.6rem;
+        padding-right: 40px;
+    }
+
+
+
+}
+@media (min-width: 1440px) {
+
+    .description {
+        font-size:3rem;
+        padding-left:10px;
+        padding-right:10px;
+        padding-top:40vh;
+    }
+    .pic {
+        width:370px;
+        border-radius: 50%;
+        box-shadow: 1px 1px 13px black;
+        position:absolute;
+        margin-top:-70px;   
+    }
+    .header1 {
+        font-size:5rem;
+        padding:2px;
+    }
+    .footer2 {
+        font-size: 2.5rem;
+        padding-top: 24px;
+    }
+
+    .u1 {
+        font-size:4rem;
+        padding-left:100px;
+    }
+    .u2 {
+        font-size:4rem;
+    }
+    .footer1 ul li a img {
+        width:50px;
+    }
+}
+
+@media (min-width: 2560px) {
+
+    .description {
+        font-size:6rem;
+        padding-left:20px;
+        padding-right:20px;
+        padding-top:32vh;
+    }
+    .pic {
+        width:570px;
+        border-radius: 50%;
+        box-shadow: 1px 1px 13px black;
+        position:absolute;
+        margin-top:-100px;   
+    }
+    .header1 {
+        font-size:10rem;
+        padding-bottom:180px;
+    }
+    .footer2 {
+        font-size:5rem;
+        height:7.5vh;
+        padding-top:20px;
+    }
+    .header2 {
+        font-size:6rem;
+    }
+
+    .u1 {
+        padding-left: 300px;
+        font-size:6.5rem;
+    }
+    .u2 {
+        padding-right: 100px;
+        font-size:6.5rem;
+    }
+    .footer1 ul li a img {
+        width:100px;
+    }
+}
