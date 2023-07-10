@@ -1,6 +1,6 @@
 # Site settings
-title: Presentación
-description: ¡Bienvenidos! Esta página web contiene mi formación académica y profesional. Asimismo, también contiene mi blog.
+title: Fabrizio Sulca Reynaldo | @FabrizioSulcaR
+description: Startup and Business enthusiastic, Data Engineer y Estudiante de Economía
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "fabriziosulcar.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
 
@@ -11,10 +11,5 @@ user_title: Estudiante de Economía UP
 email: fr.sulcar@alum.up.edu.pe
 twitter_username: FabrizioSulcaR
 github_username:  FabrizioSulcaR
-gplus_username:  FabrizioSulcaR
-
-# Google-analytics
-google-analytics:
-  id: "G-SWQH992CKV"
 
 exclude: ['package.json', 'src' , 'node_modules']
